@@ -1,12 +1,19 @@
-# Load Data
-np.load(filename)
-# Array
-length of each x[i] = 20 + 400 + 8000 + 23
+# Load data
+(use NT15dataset_x_train.npy as an example)
 
-x[i][:20]: AAC
+import numpy as np
 
-x[i][20:420]: DPC
+NT15_x_train = np.load(NT15dataset_x_train.npy)
 
-x[i][420:8420]: TC
+# x_train / x_test
+(use NT15_x_train as an example)
 
-x[i][8420:]: PseAAC
+len(NT15_x_train[i]) = 20 + 400 + 8000 + 23 (400 = 20 x 20, 8000 = 20 x 20 x 20, 23 = 20 + 3)
+
+NT15_x_train[i][:20]: AAC
+
+NT15_x_train[i][20:420]: DPC
+
+NT15_x_train[i][420:8420]: TC
+
+NT15_x_train[i][8420:]: PseAAC
