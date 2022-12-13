@@ -1,4 +1,4 @@
-# Load Data: 
+# Load Data
 np.load(filename)
 # Array
 length of each array = 20 + 400 + 8000 + 23
