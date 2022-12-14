@@ -16,4 +16,4 @@ NT15_x_train[i][20:420]: DPC
 
 NT15_x_train[i][420:8420]: TC
 
-NT15_x_train[i][8420:]: PseAAC
+NT15_x_train[i][8420:]: PseAAC (for now lambda is set to 3)
