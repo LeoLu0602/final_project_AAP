@@ -3,7 +3,7 @@
 
 import numpy as np
 
-NT15_x_train = np.load(NT15dataset_x_train.npy)
+NT15_x_train = np.load('NT15dataset_x_train.npy')
 
 # x_train / x_test
 (use NT15_x_train as an example)
