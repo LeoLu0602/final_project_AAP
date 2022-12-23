@@ -18,6 +18,4 @@ NT15_x_train[i][420:8420]: TC
 
 NT15_x_train[i][8420:8423]: PseAAC
 
-NT15_x_train[i][8423:]: PseAAC with a different correlation function*
-
-* Use angle between two vectors instead of distance
+NT15_x_train[i][8423:]: PseAAC with a different correlation function
