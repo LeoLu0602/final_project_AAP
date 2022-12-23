@@ -19,3 +19,6 @@ NT15_x_train[i][420:8420]: TC
 NT15_x_train[i][8420:8450]: PseAAC
 
 NT15_x_train[i][8450:]: PseAAC with a different correlation function
+
+Top 50, 100, 150, ... , 500
+n_estimators: 20, 40, 60, 80, 100
